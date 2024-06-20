@@ -1,0 +1,100 @@
+    <!-- course-3 section starts  -->
+
+    <section class="course-3">
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-1.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>introduction to design</h3>
+                <p>by john deo</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-2.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>Best Library</h3>
+                <p>by admin </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-3.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>Best Study</h3>
+                <p>by admin </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-4.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>Best Study</h3>
+                <p>by admin </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-5.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>Best Study</h3>
+                <p>by admin </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="video">
+                <i class="fas fa-play"></i>
+                <video src="images/about-6.mp4"></video>
+            </div>
+            <div class="content">
+                <h3>Best Sports</h3>
+                <p>by admin </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- course-3 section ends -->
+
+    <div class="main-video">
+        <div id="close-vid" class="fas fa-times"></div>
+        <video src="" autoplay controls muted></video>
+    </div>
+
+<!-- TODO: Fix video play thingy, need to exec. these after video loads up @ DOM. -->
+<!-- REF: https://stackoverflow.com/questions/75367611/wait-for-element-to-render-and-then-execute-some-function -->
+<!--
+    <script>
+    let mainVid = document.querySelector('.main-video');
+
+    document.querySelectorAll('.course-3 .box .video video').forEach(vid =>{
+
+        vid.onclick = () =>{
+            let src = vid.getAttribute('src');
+            mainVid.classList.add('active');
+            mainVid.querySelector('video').src = src;
+        }
+
+    });
+
+    document.querySelector('#close-vid').onclick = () =>{
+        mainVid.classList.remove('active');
+    }
+    </script>
+-->
