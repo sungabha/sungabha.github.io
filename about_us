@@ -1,0 +1,34 @@
+
+    <section class="heading">
+        <h3>course 01</h3>
+        <p> <a href="home.html">about >></a> about us </p>
+    </section>
+
+    <!-- course-1 section starts  -->
+
+    <section class="course-1">
+
+        <div class="box">
+            <img src="images/1.png" alt="">
+            <h3>School Type</h3>
+            <p>1AB</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/2.png" alt="">
+            <h3>School number</h3>
+            <p>1011032</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/3.png" alt="">
+            <h3>Founded</h3>
+            <p>1871</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- course-1 section ends -->

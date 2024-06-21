@@ -1,0 +1,19 @@
+    <!-- home section starts  -->
+
+    <section class="home">
+
+        <div class="image">
+            <img src="images/home-img.png" alt="">
+        </div>
+
+        <div class="content">
+
+         <center> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-d1kX8gBGrfWzVE3gLPOxuMMghqqH4lPSjmXI9uZzMcUvqQ/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- categories section starts  -->
+
+    <!-- categories section ends -->

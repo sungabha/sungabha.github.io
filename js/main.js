@@ -18,7 +18,7 @@ function registerHandler() {
     	*/
 
   async function loadPage ( page_name ) {
-    resp = await fetch(`${page_name}.html`);
+    resp = await fetch(`${page_name}`);
     markup = await resp.text()
     // document.querySelector('#app').innerHTML = markup;
     return markup;
