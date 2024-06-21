@@ -8,6 +8,7 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 
+/*
 const onConfirmRefresh = function (event) {
   event.preventDefault();
   // TODO: Refresh via fetch API call.
@@ -15,3 +16,4 @@ const onConfirmRefresh = function (event) {
 }
 
 window.addEventListener("beforeunload", onConfirmRefresh, { capture: true });
+*/
