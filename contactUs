@@ -9,21 +9,21 @@
         <div class="content">
 
          <!-- <center> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-d1kX8gBGrfWzVE3gLPOxuMMghqqH4lPSjmXI9uZzMcUvqQ/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center> -->
-      <form
-        action="https://formspree.io/f/xeojjony"
-        method="POST"
-        enctype="multipart/form-data"
-      >
-        <label>
-          Your email:
-          <input type="email" name="email">
-        </label>
-        <label>
-          Your file:
-          <input type="file" name="upload">
-        </label>
-        <button type="submit">Send</button>
-      </form>
+<form
+  action="https://formspree.io/f/xeojjony"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
     </section>
 
