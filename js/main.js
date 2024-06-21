@@ -182,10 +182,5 @@ onpopstate = (_event) => {
 
 
 $$( () => {
-
-  if ( ! LOADED_DIRECTLY ) {
-    loadMainPage();
-  }
-
   registerHandler();
 })
