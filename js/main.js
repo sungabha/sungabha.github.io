@@ -28,7 +28,7 @@ function registerHandler() {
   document.getElementById("about").onclick = (_event) => {
     _event.preventDefault();
     loadPage('about').then( markup => {
-      history.pushState({}, "", "/about");
+      history.pushState({}, "", "/about.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -37,7 +37,7 @@ function registerHandler() {
   document.getElementById("gallery").onclick = (_event) => {
     _event.preventDefault();
     loadPage('gallery').then( markup => {
-      history.pushState({}, "", "/gallery");
+      history.pushState({}, "", "/gallery.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -73,7 +73,7 @@ function registerHandler() {
   document.getElementById("blog").onclick = (_event) => {
     _event.preventDefault();
     loadPage('blog').then( markup => {
-      history.pushState({}, "", "/blog");
+      history.pushState({}, "", "/blog.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -83,7 +83,7 @@ function registerHandler() {
 
     _event.preventDefault();
     loadPage('contactUs').then( markup => {
-      history.pushState({}, "", "/contactUs");
+      history.pushState({}, "", "/contactUs.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -92,7 +92,7 @@ function registerHandler() {
   document.getElementById("blog").onclick = (_event) => {
     _event.preventDefault();
     loadPage('blog').then( markup => {
-      history.pushState({}, "", "/blog");
+      history.pushState({}, "", "/blog.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -101,7 +101,7 @@ function registerHandler() {
   document.getElementById("about_").onclick = (_event) => {
     _event.preventDefault();
     loadPage('about').then( markup => {
-      history.pushState({}, "", "/about");
+      history.pushState({}, "", "/about.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -109,8 +109,8 @@ function registerHandler() {
   };
   document.getElementById("gallery_").onclick = (_event) => {
     _event.preventDefault();
-    loadPage('gallery1').then( markup => {
-      history.pushState({}, "", "/gallery");
+    loadPage('gallery').then( markup => {
+      history.pushState({}, "", "/gallery.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -144,7 +144,7 @@ function registerHandler() {
   document.getElementById("blog_").onclick = (_event) => {
     _event.preventDefault();
     loadPage('blog').then( markup => {
-      history.pushState({}, "", "/blog");
+      history.pushState({}, "", "/blog.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -154,7 +154,7 @@ function registerHandler() {
 
     _event.preventDefault();
     loadPage('contactUs').then( markup => {
-      history.pushState({}, "", "/contactUs");
+      history.pushState({}, "", "/contactUs.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
@@ -163,7 +163,7 @@ function registerHandler() {
   document.getElementById("blog_").onclick = (_event) => {
     _event.preventDefault();
     loadPage('blog').then( markup => {
-      history.pushState({}, "", "/blog");
+      history.pushState({}, "", "/blog.html");
 
       bodyHistory.push(document.body.innerHTML);
       document.querySelector('#app').innerHTML = markup;
