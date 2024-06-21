@@ -79,8 +79,8 @@
 
 <!-- TODO: Fix video play thingy, need to exec. these after video loads up @ DOM. -->
 <!-- REF: https://stackoverflow.com/questions/75367611/wait-for-element-to-render-and-then-execute-some-function -->
-<!--
     <script>
+setTimeout( () => {
     let mainVid = document.querySelector('.main-video');
 
     document.querySelectorAll('.course-3 .box .video video').forEach(vid =>{
@@ -96,5 +96,5 @@
     document.querySelector('#close-vid').onclick = () =>{
         mainVid.classList.remove('active');
     }
+}, 3e3)
     </script>
--->
