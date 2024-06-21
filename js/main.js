@@ -20,6 +20,7 @@ function registerHandler() {
   async function loadPage ( page_name ) {
     resp = await fetch(`${page_name}`);
     markup = await resp.text()
+    if ( document.querySelector('#preLoadedElement') ) { document.querySelector('#preLoadedElement').remove() }
     // document.querySelector('#app').innerHTML = markup;
     return markup;
   }
