@@ -36,7 +36,7 @@ function registerHandler() {
   };
   document.getElementById("gallery").onclick = (_event) => {
     _event.preventDefault();
-    loadPage('gallery1').then( markup => {
+    loadPage('gallery').then( markup => {
       history.pushState({}, "", "/gallery");
 
       bodyHistory.push(document.body.innerHTML);
